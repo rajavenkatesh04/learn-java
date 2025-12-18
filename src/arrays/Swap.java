@@ -8,7 +8,6 @@ public class Swap {
         System.out.println(Arrays.toString(arr));
         reverse(arr, 0, 8);
         System.out.println(Arrays.toString(arr));
-
     }
 
     static void reverse(int[] arr, int index1, int index2) {

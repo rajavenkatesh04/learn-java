@@ -31,7 +31,6 @@ public class ReverseArray {
             list.set(start, list.get(end));
             list.set(end, temp);
 
-
             start++;
             end--;
         }
