@@ -5,13 +5,30 @@ import java.util.Arrays;
 public class main {
     public static void main(String[] args) {
         int[] arr = {3, 1, 5, 4, 2};
-        bubble(arr);
+        selection(arr);
         System.out.println(Arrays.toString(arr));
     }
 
     static void selection(int[] arr) {
-        for(int i = 0; i < arr.length; i++) {
-            // find the max item in the array and swap it with the correct one
+        // run arr.length -1 times since the very last element is automatically sorted
+        // (suppose if need to sort 5 people acc to height, you sort the first 4, we leave the 5th cause they're the tallest automatically same logic).
+        for(int i = 0; i < arr.length - 1; i++ ) {
+
+            // assume the index of 1st unsorted item is the smallest.
+            int minIndex = i;
+
+            for(int j = i + 1; j < arr.length; j++) {
+                // compare VALUE of current min with new
+                if(arr[minIndex] > arr[j]) {
+                    // if so update the INDEX, not the value.
+                    minIndex = j;
+                }
+            }
+
+            // swap the VALUES.
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
         }
     }
 
