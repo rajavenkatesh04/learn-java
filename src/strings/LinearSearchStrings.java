@@ -15,8 +15,7 @@ public class LinearSearchStrings {
         System.out.print("Enter the letter to search: ");
         char target = in.next().charAt(0);
 
-        boolean result = checker(input, target);
-        System.out.println(result);
+        System.out.println(checker(input, target));
     }
 
     static boolean checker2(String input, char target) {

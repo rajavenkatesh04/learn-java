@@ -2,7 +2,7 @@ package strings;
 
 public class Palindrome {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(""));
+        System.out.println(isPalindrome2("car"));
     }
 
     static boolean isPalindrome(String str) {
@@ -19,5 +19,12 @@ public class Palindrome {
             }
         }
         return true;
+    }
+
+
+    static boolean isPalindrome2(String str) {
+        if(str == null ) return true;
+        String reversed = new StringBuilder(str).reverse().toString();
+        return str.equals(reversed);
     }
 }
