@@ -2,7 +2,7 @@ package sorting;
 
 import java.util.Arrays;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         int[] arr = {3, 1, 5, 4, 2};
         insertion(arr);
