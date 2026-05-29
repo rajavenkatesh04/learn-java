@@ -1,4 +1,4 @@
-package bosch;
+package companies.bosch;
 
 import java.util.Scanner;
 
