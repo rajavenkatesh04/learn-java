@@ -2,7 +2,7 @@ package twopointer;
 
 import java.util.Arrays;
 
-public class Sorted2Sum {
+public class TwoSumTwo {
     static void main() {
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
