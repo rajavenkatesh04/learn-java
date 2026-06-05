@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 
 public class ThreeSum {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
 
         System.out.println(threeSum(nums));
