@@ -1,81 +1,78 @@
-# learn-java — DSA Placement Prep
+# Java Data Structures & Algorithms
 
-A personal journey through Data Structures & Algorithms in **Java**, built one problem at a time. This repo tracks my practice as I work toward placement readiness — organized by topic, with a focus on understanding *patterns* over memorizing solutions.
+> A systematic approach to algorithmic problem solving, emphasizing pattern recognition over solution memorization to achieve placement readiness.
 
----
-
-## About
-
-This is a learning repository where I solve DSA problems (mostly from [LeetCode](https://leetcode.com/)) and group them by the core technique they teach. The goal isn't just to get an "Accepted" — it's to recognize *which pattern* a problem belongs to, so the next one gets easier.
+This repository serves as a structured documentation of my progression through core Data Structures and Algorithms (DSA). By organizing solutions around fundamental techniques rather than standalone problems, the focus remains on identifying reusable patterns for technical interviews and online assessments.
 
 ---
 
-## Repository Structure
+## Directory Architecture
 
-```
+The source code is organized by technical concepts, allowing for targeted practice and review.
+
+```text
 learn-java/
 └── src/
-    ├── arrays/         # Array fundamentals & traversal
-    ├── binaryseach/    # Binary search & variants
-    ├── companies/      # Company-tagged practice problems
-    ├── hashmap/        # HashMap & HashSet problems
-    ├── mathlogic/      # Math & number-theory problems
-    ├── recursion/      # Recursion fundamentals
-    ├── sorting/        # Sorting algorithms & applications
-    ├── stack/          # Stack-based problems
-    ├── strings/        # String manipulation
-    ├── twodarray/      # 2D array problems
-    └── twopointer/     # Two-pointer technique
+    ├── arrays/         # Array fundamentals and traversal techniques
+    ├── binarysearch/   # Divide and conquer search variants
+    ├── companies/      # High-frequency problems by organization
+    ├── hashmap/        # Key-value mapping and set operations
+    ├── mathlogic/      # Number theory and mathematical deduction
+    ├── recursion/      # Call stack management and base cases
+    ├── sorting/        # Algorithmic sorting and their applications
+    ├── stack/          # LIFO principles and monotonic stacks
+    ├── strings/        # Character manipulation and parsing
+    ├── twodarray/      # Matrix traversal and manipulation
+    └── twopointer/     # Linear convergence and sliding windows
+
 ```
 
 ---
 
-##  Problems Solved
+## Problem Ledger
 
 ### Arrays & Hashing
-| # | Problem | Difficulty | Pattern |
-|---|---------|------------|---------|
-| 1 | Two Sum | Easy | HashMap + complement |
-| 217 | Contains Duplicate | Easy | HashSet membership |
-| 242 | Valid Anagram | Easy | Frequency count |
-| 49 | Group Anagrams | Medium | Sorted string as key |
-| 347 | Top K Frequent Elements | Medium | Bucket sort |
-| 238 | Product of Array Except Self | Medium | Prefix / suffix products |
-| 560 | Subarray Sum Equals K | Medium | Prefix sum + HashMap |
+
+| ID | Problem | Difficulty | Core Pattern |
+| --- | --- | --- | --- |
+| 1 | Two Sum | Easy | HashMap & Complement |
+| 217 | Contains Duplicate | Easy | HashSet Membership |
+| 242 | Valid Anagram | Easy | Frequency Counting |
+| 49 | Group Anagrams | Medium | Sorted String Keys |
+| 347 | Top K Frequent Elements | Medium | Bucket Sort |
+| 238 | Product of Array Except Self | Medium | Prefix & Suffix Products |
+| 560 | Subarray Sum Equals K | Medium | Prefix Sum & HashMap |
 
 ### Two Pointers
-| # | Problem | Difficulty | Pattern |
-|---|---------|------------|---------|
-| 125 | Valid Palindrome | Easy | Converging pointers |
-| 167 | Two Sum II (Sorted) | Medium | Two pointers on sorted array |
-| 15 | 3Sum | Medium | Sort + fixed element + two pointers |
+
+| ID | Problem | Difficulty | Core Pattern |
+| --- | --- | --- | --- |
+| 125 | Valid Palindrome | Easy | Converging Pointers |
+| 167 | Two Sum II (Sorted) | Medium | Two Pointers (Sorted Data) |
+| 15 | 3Sum | Medium | Fixed Element Pivot & Two Pointers |
 
 ---
 
-##  Patterns Learned
+## Algorithmic Patterns
 
-- **HashMap + complement** — "find a pair that satisfies X" (Two Sum)
-- **HashSet membership** — "have I seen this before?" (Contains Duplicate)
-- **Frequency counting** — `getOrDefault(key, 0) + 1` for counting occurrences
-- **Sorted key grouping** — sort a string/array to use as a grouping key
-- **Bucket sort** — index represents frequency, for top-K problems
-- **Prefix / suffix products & sums** — precompute running products/sums to avoid nested loops
-- **Two pointers** — converging pointers on sorted data for pair/triplet problems
+Recognizing the underlying blueprint of a problem is the primary objective of this repository. Below are the core patterns mastered thus far:
 
----
-
-##  Tech
-
-- **Language:** Java
-- **IDE:** IntelliJ IDEA
-- **Practice Platform:** LeetCode
+* **HashMap & Complements:** Identifying pairs that satisfy a specific constraint (e.g., *Two Sum*).
+* **HashSet Membership:** Achieving constant-time lookup for historical data verification.
+* **Frequency Counting:** Utilizing `getOrDefault(key, 0) + 1` for efficient element tracking.
+* **Sorted Key Grouping:** Lexicographical sorting to group variants (e.g., Anagrams).
+* **Bucket Sort:** Mapping frequencies to indices for optimized top-K retrievals.
+* **Prefix / Suffix Operations:** Precomputing running totals to bypass nested iterations.
+* **Converging Pointers:** Utilizing opposite-end traversal on sorted sequences for paired targets.
 
 ---
 
-##  Goal
+## Technical Stack
 
-Build strong pattern recognition across the core DSA topics that appear in online assessments and technical interviews — and to need a little less help with each problem solved.
+* **Language:** Java
+* **Environment:** IntelliJ IDEA
+* **Evaluation Platform:** LeetCode
 
 ---
 
-*Work in progress — updated as I solve more. 🌱*
+*Continuous Integration: This repository is actively maintained and updated as new algorithmic patterns are explored and mastered.*
