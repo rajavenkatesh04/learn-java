@@ -30,7 +30,7 @@ learn-java/
 
 ---
 
-## ✅ Problems Solved
+##  Problems Solved
 
 ### Arrays & Hashing
 | # | Problem | Difficulty | Pattern |
@@ -52,7 +52,7 @@ learn-java/
 
 ---
 
-## 🧠 Patterns Learned
+##  Patterns Learned
 
 - **HashMap + complement** — "find a pair that satisfies X" (Two Sum)
 - **HashSet membership** — "have I seen this before?" (Contains Duplicate)
@@ -64,7 +64,7 @@ learn-java/
 
 ---
 
-## 🛠️ Tech
+##  Tech
 
 - **Language:** Java
 - **IDE:** IntelliJ IDEA
@@ -72,7 +72,7 @@ learn-java/
 
 ---
 
-## 🎯 Goal
+##  Goal
 
 Build strong pattern recognition across the core DSA topics that appear in online assessments and technical interviews — and to need a little less help with each problem solved.
 
